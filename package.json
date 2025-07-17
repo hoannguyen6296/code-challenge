@@ -1,0 +1,28 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Note that if you fork this repository, your responses may be publicly linked to this repo.   Please submit your application along with the solutions attached or linked.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "problem4": "npx tsc && node dist/problem4/solution.js",
+    "problem5": "npx tsc && node dist/problem5/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/express": "^4.17.1",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^4.17.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
