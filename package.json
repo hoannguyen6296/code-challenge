@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "problem4": "npx tsc && node dist/problem4/solution.js",
+    "problem4": " npx tsc && node dist/problem4/solution.js",
     "problem5": "npx tsc && node dist/problem5/app.js"
   },
   "keywords": [],
