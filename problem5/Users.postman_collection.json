@@ -35,12 +35,10 @@
 					"raw": "{\n  \"name\": \"user4\",\n  \"email\": \"user4@test.com\",\n  \"age\":18,\n  \"summary\": \"this is the fourth User - will use for delete\",\n  \"isActive\":false\n}"
 				},
 				"url": {
-					"raw": "http://localhost:3000/users",
-					"protocol": "http",
+					"raw": "{{hostURL}}/users",
 					"host": [
-						"localhost"
+						"{{hostURL}}"
 					],
-					"port": "3000",
 					"path": [
 						"users"
 					]
@@ -62,12 +60,10 @@
 							"raw": "{\n  \"name\": \"user 1\",\n  \"email\": \"user1@test.com\",\n  \"age\":18,\n  \"summary\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry.\",\n  \"isActive\":true\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -124,12 +120,10 @@
 							"raw": "{\n  \"name\": \"user 1\",\n  \"email\": \"user1@test.com\",\n  \"age\":18,\n  \"summary\": \"second try\",\n  \"isActive\":true\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -186,12 +180,10 @@
 							"raw": "{\n  \"name\": \"user2\",\n  \"email\": \"user2@test.com\",\n  \"age\":18,\n  \"summary\": \"\",\n  \"isActive\":true\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -248,12 +240,10 @@
 							"raw": "{\n  \"name\": \"user3\",\n  \"email\": \"user3@test.com\",\n  \"age\":18,\n  \"summary\": \"this is the third User - will use for update\",\n  \"isActive\":true\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -310,12 +300,10 @@
 							"raw": "{\n  \"name\": \"user4\",\n  \"email\": \"user4@test.com\",\n  \"age\":18,\n  \"summary\": \"this is the fourth User - will use for delete\",\n  \"isActive\":false\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -365,12 +353,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/users",
-					"protocol": "http",
+					"raw": "{{hostURL}}/users",
 					"host": [
-						"localhost"
+						"{{hostURL}}"
 					],
-					"port": "3000",
 					"path": [
 						"users"
 					],
@@ -400,12 +386,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							]
@@ -453,12 +437,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users?name=user 1",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users?name=user 1",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							],
@@ -512,12 +494,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users?age=18&name=user 1",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users?age=18&name=user 1",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							],
@@ -575,12 +555,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users?isActive=true",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users?isActive=true",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users"
 							],
@@ -646,12 +624,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/users/{{userID}}",
-					"protocol": "http",
+					"raw": "{{hostURL}}/users/{{userID}}",
 					"host": [
-						"localhost"
+						"{{hostURL}}"
 					],
-					"port": "3000",
 					"path": [
 						"users",
 						"{{userID}}"
@@ -665,12 +641,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users/{{userID}}",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users/{{userID}}",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users",
 								"{{userID}}"
@@ -730,12 +704,10 @@
 					"raw": "{\n  \"email\": \"user4@test.com\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:3000/users/{{IdtoBeUpdated}}",
-					"protocol": "http",
+					"raw": "{{hostURL}}/users/{{IdtoBeUpdated}}",
 					"host": [
-						"localhost"
+						"{{hostURL}}"
 					],
-					"port": "3000",
 					"path": [
 						"users",
 						"{{IdtoBeUpdated}}"
@@ -758,12 +730,10 @@
 							"raw": "{\n  \"summary\": \"this is new summary for user 3\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users/{{IdtoBeUpdated}}",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users/{{IdtoBeUpdated}}",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users",
 								"{{IdtoBeUpdated}}"
@@ -821,12 +791,10 @@
 							"raw": "{\n  \"email\": \"user4@test.com\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/users/{{IdtoBeUpdated}}",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users/{{IdtoBeUpdated}}",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users",
 								"{{IdtoBeUpdated}}"
@@ -877,12 +845,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/users/{{IdtoBeDeleted}}",
-					"protocol": "http",
+					"raw": "{{hostURL}}/users/{{IdtoBeDeleted}}",
 					"host": [
-						"localhost"
+						"{{hostURL}}"
 					],
-					"port": "3000",
 					"path": [
 						"users",
 						"{{IdtoBeDeleted}}"
@@ -896,12 +862,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/users/{{IdtoBeDeleted}}",
-							"protocol": "http",
+							"raw": "{{hostURL}}/users/{{IdtoBeDeleted}}",
 							"host": [
-								"localhost"
+								"{{hostURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"users",
 								"{{IdtoBeDeleted}}"
@@ -969,6 +933,11 @@
 		{
 			"key": "IdtoBeUpdated",
 			"value": ""
+		},
+		{
+			"key": "hostURL",
+			"value": "http://localhost:3000/api/v1",
+			"type": "string"
 		}
 	]
 }
