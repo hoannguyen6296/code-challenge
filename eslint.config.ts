@@ -36,6 +36,7 @@ export default tseslint.config(
   {
     rules: {
       '@typescript-eslint/explicit-member-accessibility': 'warn',
+      '@typescript-eslint/no-unsafe-member-access': 0,
       '@typescript-eslint/no-misused-promises': 0,
       '@typescript-eslint/no-floating-promises': 0,
       '@typescript-eslint/no-confusing-void-expression': 0,
@@ -53,7 +54,7 @@ export default tseslint.config(
       'max-len': [
         'warn',
         {
-          'code': 80,
+          'code': 120,
         },
       ],
       '@stylistic/ts/semi': ['warn', 'always'],
@@ -82,11 +83,10 @@ export default tseslint.config(
       '@typescript-eslint/no-non-null-assertion': 0,
       '@typescript-eslint/no-unused-expressions': 'warn',
       'comma-dangle': ['warn', 'always-multiline'],
-      'no-console': 1,
       'no-extra-boolean-cast': 0,
       'indent': ['warn', 2],
       'quotes': ['warn', 'single'],
-      'n/no-process-env': 1,
+      'n/no-process-env': 0,
       'n/no-missing-import': 0,
       'n/no-unpublished-import': 0,
       'prefer-const': 'warn',
