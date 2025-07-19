@@ -80,7 +80,7 @@ const sum_to_n_b = (n: number): number => {
     return result
 }
 
-const sum_to_n_b_2 = (n: number) => {
+const sum_to_n_b_2 = (n: number): number => {
     if (n <= 1) return Math.max(0, n);
     // Using reduce to sum an array of numbers from 1 to n
     // Complexity: O(n) - linear time complexity, as it iterates through n elements
@@ -94,16 +94,14 @@ const sum_to_n_b_2 = (n: number) => {
     return sum
 }
 
-const sum_to_n_c = (n: number) => {
+const sum_to_n_c = (n: number): number => {
     if (n <= 1) return Math.max(0, n);
     // Using recursion to sum the numbers from 1 to n
     // Complexity: O(n) - linear time complexity, as it makes n recursive calls
     // Efficiency: Less efficient than the for loop or reduce, as it involves function call overhead
     // This method is not recommended for large n due to potential stack overflow issues
     // Use this if you want to give other members an example of recursion.
-    while (n > 1) {
-        return n + sum_to_n_c(n - 1)
-    }
+    return n + sum_to_n_c(n - 1);
 }
 
 function triggerHandler(fn: (n: number) => number, n: number, label: string) {
