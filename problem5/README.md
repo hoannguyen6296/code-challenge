@@ -34,7 +34,7 @@ Alternatively, you can use curl commands:
 
 - **Create user**
 ```bash
-curl --location 'http://localhost:3000/api/users' \
+curl --location 'http://localhost:3000/api/v1/users' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "name",
@@ -47,18 +47,18 @@ curl --location 'http://localhost:3000/api/users' \
 
 - **Search user**
 ```bash
-curl --location 'http://localhost:3000/api/users?email=test'
+curl --location 'http://localhost:3000/api/v1/users?email=test'
 ```
 
 - **Get user detail**
 ```bash
-curl --location 'http://localhost:3000/api/users/<id>'
+curl --location 'http://localhost:3000/api/v1/users/<id>'
 ```
 Replace `<id>` with an existing user ID.
 
 - **Update user**
 ```bash
-curl --location --request PATCH 'http://localhost:3000/api/users/<id>' \
+curl --location --request PATCH 'http://localhost:3000/api/v1/users/<id>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "name1",
@@ -71,6 +71,6 @@ Replace `<id>` with an existing user ID.
 
 - **Delete user**
 ```bash
-curl --location --request DELETE 'http://localhost:3000/api/users/<id>'
+curl --location --request DELETE 'http://localhost:3000/api/v1/users/<id>'
 ```
 Replace `<id>` with an existing user ID.
