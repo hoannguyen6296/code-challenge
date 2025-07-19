@@ -10,8 +10,12 @@
     "lint:fix": "npx eslint . --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Hoan Nguyen",
+  "engines": {
+		"npm": "10",
+		"node": "v22"
+	},
+  "license": "GPL-3.0",
   "devDependencies": {
     "@eslint/js": "^9.31.0",
     "@stylistic/eslint-plugin-js": "^4.4.1",
